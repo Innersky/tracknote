@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C8BD6B7EEDA553DE265278B /* Pods_Tracknote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899C9D2471E792FAA9446371 /* Pods_Tracknote.framework */; };
+		A84C89819ECC5F26D761595E /* Pods_TracknoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3B375B025F40273CE7E1B /* Pods_TracknoteTests.framework */; };
+		A8D6FFE10853CAF0A9E2B7D8 /* Pods_TracknoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC7F83A0E16D5F43CA5B49 /* Pods_TracknoteUITests.framework */; };
+		A94A29DB21B1D67D00819015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A29DA21B1D67D00819015 /* AppDelegate.swift */; };
+		A94A29DD21B1D67D00819015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A29DC21B1D67D00819015 /* ViewController.swift */; };
+		A94A29E021B1D67D00819015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94A29DE21B1D67D00819015 /* Main.storyboard */; };
+		A94A29E321B1D67D00819015 /* Tracknote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A94A29E121B1D67D00819015 /* Tracknote.xcdatamodeld */; };
+		A94A29E521B1D68000819015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94A29E421B1D68000819015 /* Assets.xcassets */; };
+		A94A29E821B1D68000819015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94A29E621B1D68000819015 /* LaunchScreen.storyboard */; };
+		A94A29F321B1D68000819015 /* TracknoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A29F221B1D68000819015 /* TracknoteTests.swift */; };
+		A94A29FE21B1D68000819015 /* TracknoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A29FD21B1D68000819015 /* TracknoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94A29EF21B1D68000819015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94A29CF21B1D67D00819015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94A29D621B1D67D00819015;
+			remoteInfo = Tracknote;
+		};
+		A94A29FA21B1D68000819015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94A29CF21B1D67D00819015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94A29D621B1D67D00819015;
+			remoteInfo = Tracknote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DC7F83A0E16D5F43CA5B49 /* Pods_TracknoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TracknoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C50AEBD1F7E3002E213F492 /* Pods-Tracknote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tracknote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tracknote/Pods-Tracknote.debug.xcconfig"; sourceTree = "<group>"; };
+		27656086E0CAE12BB18CED41 /* Pods-TracknoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracknoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TracknoteTests/Pods-TracknoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5026D5F16E37BE934B6C6CA6 /* Pods-TracknoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracknoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TracknoteUITests/Pods-TracknoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59760CE1A65069D2A73DAC61 /* Pods-Tracknote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tracknote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tracknote/Pods-Tracknote.release.xcconfig"; sourceTree = "<group>"; };
+		899C9D2471E792FAA9446371 /* Pods_Tracknote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tracknote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72A406F6A3635A435BA96AC /* Pods-TracknoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracknoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TracknoteTests/Pods-TracknoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		A94A29D721B1D67D00819015 /* Tracknote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracknote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94A29DA21B1D67D00819015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A94A29DC21B1D67D00819015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A94A29DF21B1D67D00819015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94A29E221B1D67D00819015 /* Tracknote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracknote.xcdatamodel; sourceTree = "<group>"; };
+		A94A29E421B1D68000819015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94A29E721B1D68000819015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94A29E921B1D68000819015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94A29EE21B1D68000819015 /* TracknoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracknoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94A29F221B1D68000819015 /* TracknoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracknoteTests.swift; sourceTree = "<group>"; };
+		A94A29F421B1D68000819015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94A29F921B1D68000819015 /* TracknoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracknoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94A29FD21B1D68000819015 /* TracknoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracknoteUITests.swift; sourceTree = "<group>"; };
+		A94A29FF21B1D68000819015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5CBDA4ACAA30A6F2CE0E35 /* Pods-TracknoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracknoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TracknoteUITests/Pods-TracknoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F8C3B375B025F40273CE7E1B /* Pods_TracknoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TracknoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94A29D421B1D67D00819015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BD6B7EEDA553DE265278B /* Pods_Tracknote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94A29EB21B1D68000819015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84C89819ECC5F26D761595E /* Pods_TracknoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94A29F621B1D68000819015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D6FFE10853CAF0A9E2B7D8 /* Pods_TracknoteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6F08E23B8155834C537C81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				899C9D2471E792FAA9446371 /* Pods_Tracknote.framework */,
+				F8C3B375B025F40273CE7E1B /* Pods_TracknoteTests.framework */,
+				00DC7F83A0E16D5F43CA5B49 /* Pods_TracknoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94A29CE21B1D67D00819015 = {
+			isa = PBXGroup;
+			children = (
+				A94A29D921B1D67D00819015 /* Tracknote */,
+				A94A29F121B1D68000819015 /* TracknoteTests */,
+				A94A29FC21B1D68000819015 /* TracknoteUITests */,
+				A94A29D821B1D67D00819015 /* Products */,
+				E203C8C622920486443AFF9E /* Pods */,
+				8F6F08E23B8155834C537C81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A94A29D821B1D67D00819015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94A29D721B1D67D00819015 /* Tracknote.app */,
+				A94A29EE21B1D68000819015 /* TracknoteTests.xctest */,
+				A94A29F921B1D68000819015 /* TracknoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94A29D921B1D67D00819015 /* Tracknote */ = {
+			isa = PBXGroup;
+			children = (
+				A94A29DA21B1D67D00819015 /* AppDelegate.swift */,
+				A94A29DC21B1D67D00819015 /* ViewController.swift */,
+				A94A29DE21B1D67D00819015 /* Main.storyboard */,
+				A94A29E421B1D68000819015 /* Assets.xcassets */,
+				A94A29E621B1D68000819015 /* LaunchScreen.storyboard */,
+				A94A29E921B1D68000819015 /* Info.plist */,
+				A94A29E121B1D67D00819015 /* Tracknote.xcdatamodeld */,
+			);
+			path = Tracknote;
+			sourceTree = "<group>";
+		};
+		A94A29F121B1D68000819015 /* TracknoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94A29F221B1D68000819015 /* TracknoteTests.swift */,
+				A94A29F421B1D68000819015 /* Info.plist */,
+			);
+			path = TracknoteTests;
+			sourceTree = "<group>";
+		};
+		A94A29FC21B1D68000819015 /* TracknoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94A29FD21B1D68000819015 /* TracknoteUITests.swift */,
+				A94A29FF21B1D68000819015 /* Info.plist */,
+			);
+			path = TracknoteUITests;
+			sourceTree = "<group>";
+		};
+		E203C8C622920486443AFF9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C50AEBD1F7E3002E213F492 /* Pods-Tracknote.debug.xcconfig */,
+				59760CE1A65069D2A73DAC61 /* Pods-Tracknote.release.xcconfig */,
+				27656086E0CAE12BB18CED41 /* Pods-TracknoteTests.debug.xcconfig */,
+				A72A406F6A3635A435BA96AC /* Pods-TracknoteTests.release.xcconfig */,
+				5026D5F16E37BE934B6C6CA6 /* Pods-TracknoteUITests.debug.xcconfig */,
+				BF5CBDA4ACAA30A6F2CE0E35 /* Pods-TracknoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94A29D621B1D67D00819015 /* Tracknote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94A2A0221B1D68000819015 /* Build configuration list for PBXNativeTarget "Tracknote" */;
+			buildPhases = (
+				D57182326932979B752E6977 /* [CP] Check Pods Manifest.lock */,
+				A94A29D321B1D67D00819015 /* Sources */,
+				A94A29D421B1D67D00819015 /* Frameworks */,
+				A94A29D521B1D67D00819015 /* Resources */,
+				D5B63084178E84B5F42AB9F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tracknote;
+			productName = Tracknote;
+			productReference = A94A29D721B1D67D00819015 /* Tracknote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94A29ED21B1D68000819015 /* TracknoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94A2A0521B1D68000819015 /* Build configuration list for PBXNativeTarget "TracknoteTests" */;
+			buildPhases = (
+				351DC8BF7C384FB7EB1BDF26 /* [CP] Check Pods Manifest.lock */,
+				A94A29EA21B1D68000819015 /* Sources */,
+				A94A29EB21B1D68000819015 /* Frameworks */,
+				A94A29EC21B1D68000819015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94A29F021B1D68000819015 /* PBXTargetDependency */,
+			);
+			name = TracknoteTests;
+			productName = TracknoteTests;
+			productReference = A94A29EE21B1D68000819015 /* TracknoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94A29F821B1D68000819015 /* TracknoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94A2A0821B1D68000819015 /* Build configuration list for PBXNativeTarget "TracknoteUITests" */;
+			buildPhases = (
+				7C23027F4A509EEFCACCF006 /* [CP] Check Pods Manifest.lock */,
+				A94A29F521B1D68000819015 /* Sources */,
+				A94A29F621B1D68000819015 /* Frameworks */,
+				A94A29F721B1D68000819015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94A29FB21B1D68000819015 /* PBXTargetDependency */,
+			);
+			name = TracknoteUITests;
+			productName = TracknoteUITests;
+			productReference = A94A29F921B1D68000819015 /* TracknoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94A29CF21B1D67D00819015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Bill Min";
+				TargetAttributes = {
+					A94A29D621B1D67D00819015 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A94A29ED21B1D68000819015 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A94A29D621B1D67D00819015;
+					};
+					A94A29F821B1D68000819015 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A94A29D621B1D67D00819015;
+					};
+				};
+			};
+			buildConfigurationList = A94A29D221B1D67D00819015 /* Build configuration list for PBXProject "Tracknote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94A29CE21B1D67D00819015;
+			productRefGroup = A94A29D821B1D67D00819015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94A29D621B1D67D00819015 /* Tracknote */,
+				A94A29ED21B1D68000819015 /* TracknoteTests */,
+				A94A29F821B1D68000819015 /* TracknoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94A29D521B1D67D00819015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94A29E821B1D68000819015 /* LaunchScreen.storyboard in Resources */,
+				A94A29E521B1D68000819015 /* Assets.xcassets in Resources */,
+				A94A29E021B1D67D00819015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94A29EC21B1D68000819015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94A29F721B1D68000819015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351DC8BF7C384FB7EB1BDF26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TracknoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C23027F4A509EEFCACCF006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TracknoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57182326932979B752E6977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tracknote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B63084178E84B5F42AB9F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tracknote/Pods-Tracknote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tracknote/Pods-Tracknote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94A29D321B1D67D00819015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94A29DD21B1D67D00819015 /* ViewController.swift in Sources */,
+				A94A29E321B1D67D00819015 /* Tracknote.xcdatamodeld in Sources */,
+				A94A29DB21B1D67D00819015 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94A29EA21B1D68000819015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94A29F321B1D68000819015 /* TracknoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94A29F521B1D68000819015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94A29FE21B1D68000819015 /* TracknoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94A29F021B1D68000819015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94A29D621B1D67D00819015 /* Tracknote */;
+			targetProxy = A94A29EF21B1D68000819015 /* PBXContainerItemProxy */;
+		};
+		A94A29FB21B1D68000819015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94A29D621B1D67D00819015 /* Tracknote */;
+			targetProxy = A94A29FA21B1D68000819015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94A29DE21B1D67D00819015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94A29DF21B1D67D00819015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A94A29E621B1D68000819015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94A29E721B1D68000819015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94A2A0021B1D68000819015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A94A2A0121B1D68000819015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94A2A0321B1D68000819015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C50AEBD1F7E3002E213F492 /* Pods-Tracknote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tracknote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billmin.Tracknote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94A2A0421B1D68000819015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59760CE1A65069D2A73DAC61 /* Pods-Tracknote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tracknote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billmin.Tracknote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A94A2A0621B1D68000819015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27656086E0CAE12BB18CED41 /* Pods-TracknoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracknoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billmin.TracknoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tracknote.app/Tracknote";
+			};
+			name = Debug;
+		};
+		A94A2A0721B1D68000819015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72A406F6A3635A435BA96AC /* Pods-TracknoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracknoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billmin.TracknoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tracknote.app/Tracknote";
+			};
+			name = Release;
+		};
+		A94A2A0921B1D68000819015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5026D5F16E37BE934B6C6CA6 /* Pods-TracknoteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracknoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billmin.TracknoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tracknote;
+			};
+			name = Debug;
+		};
+		A94A2A0A21B1D68000819015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5CBDA4ACAA30A6F2CE0E35 /* Pods-TracknoteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracknoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billmin.TracknoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tracknote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94A29D221B1D67D00819015 /* Build configuration list for PBXProject "Tracknote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94A2A0021B1D68000819015 /* Debug */,
+				A94A2A0121B1D68000819015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94A2A0221B1D68000819015 /* Build configuration list for PBXNativeTarget "Tracknote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94A2A0321B1D68000819015 /* Debug */,
+				A94A2A0421B1D68000819015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94A2A0521B1D68000819015 /* Build configuration list for PBXNativeTarget "TracknoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94A2A0621B1D68000819015 /* Debug */,
+				A94A2A0721B1D68000819015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94A2A0821B1D68000819015 /* Build configuration list for PBXNativeTarget "TracknoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94A2A0921B1D68000819015 /* Debug */,
+				A94A2A0A21B1D68000819015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A94A29E121B1D67D00819015 /* Tracknote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A94A29E221B1D67D00819015 /* Tracknote.xcdatamodel */,
+			);
+			currentVersion = A94A29E221B1D67D00819015 /* Tracknote.xcdatamodel */;
+			path = Tracknote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A94A29CF21B1D67D00819015 /* Project object */;
+}
