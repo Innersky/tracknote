@@ -8,18 +8,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabBarController: UITabBarController, UITabBarControllerDelegate {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    delegate = self
+    // Do any additional setup after loading the view, typically from a nib.
+  }
+
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+
+  func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+    guard let fromView = selectedViewController?.view, let toView = viewController.view else {
+      return false // Make sure you want this as false
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    if fromView != toView {
+      let temp = viewController as! UINavigationController
+      let temp2 = temp.topViewController as! TestViewController
+      temp2.animateViewAppear()
+//      UIView.transition(from: fromView, to: toView, duration: 5, options: [.transitionCurlUp], completion: nil)
     }
-
+    
+    return true
+  }
 
 }
 
